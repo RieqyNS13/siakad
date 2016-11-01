@@ -1,0 +1,348 @@
+@charset "utf-8";
+/* CSS Document */
+
+body {
+	//font-family: Arial, Helvetica, sans-serif;
+	padding-top: 70px;
+	background-color:#e9eaed;
+}
+
+.tabel {
+	height: 100%;
+}
+
+.page-header {
+	border-bottom: 1px solid #C9C9C9;
+}
+
+.news {
+	background-color: #e67e22;
+	color: #FFFFFF;
+	padding-top: 50px;
+	padding-bottom: 90px;
+	padding-left: 20px;
+	padding-right: 20px;
+}
+
+.news a {
+	font-family:Arial, Helvetica, sans-serif;
+	color:#FFFFFF;
+	text-decoration: none;
+}
+
+.news p {
+	font-size:18px;
+}
+
+.news.title a {
+	color: #f0f;
+}
+
+.services {
+	background-color: #16a085;
+	color:#FFFFFF;
+	padding-top: 50px;
+	padding-bottom: 100px;
+}
+
+.services a {
+	font-family:Arial, Helvetica, sans-serif;
+	color:#FFFFFF;
+	text-decoration: none;
+}
+
+.services p {
+	font-size:18px;
+}
+
+.section-heading {
+	text-align: center;
+	padding: 10px 0px;
+}
+
+p.t2 {
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:14px;
+	color:#FFFFFF;
+}
+
+.navbar-default .navbar-brand {
+	color:#FFFFFF;
+}
+
+.navbar-default .navbar-nav > li > a {
+    color: #ffffff;
+}
+
+.navbar-default .navbar-nav > li > a:hover {
+	color:#000000;
+}
+
+.dropdown-menu {
+	background-color: #3498db;
+}
+
+.dropdown-menu > li > a {
+	color:#FFFFFF;
+}
+
+.dropdown-menu > li > a:hover {
+	background-color: rgba(63, 159, 201, 0.6);
+}
+
+.navbar-default .navbar-nav>.open>a,.navbar-default .navbar-nav>.open>a:hover,.navbar-default .navbar-nav>.open>a:focus {
+	color:#000;
+	background-color: #3498db;
+}
+
+#headerwrap {
+	background: url(images/bc2.jpg) no-repeat scroll center center / cover transparent;
+	margin-top: -80px;
+	padding-top: 100px;
+	text-align: center;
+	min-height: 350px;
+	width: 100%;
+	font-family: "Montserrat",sans-serif;
+	text-shadow: 2px 2px #000;
+	
+	-webkit-background-size: 100%;
+    -moz-background-size: 100%;
+    -o-background-size: 100%;
+    background-size: 100%;
+
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+#headerwrap h1 {
+	color: #FFF;
+	padding-top: 10px;
+	padding-bottom: 20px;
+	letter-spacing: 4px;
+	font-size: 50px;
+	font-weight: bold;
+}
+
+#headerwrap h4 {
+	font-weight: 400;
+	color: #FFF;
+}
+
+.navbar{
+	background-color: #3498db;
+}
+
+.navbar-default {
+	border-color:transparent;
+}
+
+#intro {
+	background-color:#9072ff;
+	font-family:"Arial Rounded MT Bold", Verdana, "Comic Sans MS";
+	color: #FFFFFF;
+	clear: both;
+	width: 100%;
+	height: 100%;
+	overflow: hidden;
+	
+}
+#login-page {
+	background-color: #9072ff;
+	font-family: "Arial Rounded MT Bold", Arial, "Comic Sans MS";
+	color: #FFFFFF;
+	font-size: 18px;
+	background-attachment: fixed;
+	background-image: url(../images/watermark.png);
+	background-repeat: no-repeat;
+	background-position: right bottom;
+}
+
+#footer {
+	background-image: url(images/bg.png);
+	background-repeat: repeat-x;
+	width: 100%;
+	clear: both;
+	position: absolute;
+	bottom: 0px;
+}
+
+#header {
+	background: url(images/bg.png) repeat-x scroll left bottom transparent;
+	width: 100%;
+	position:absolute;
+	top: 0px;
+	padding-botom: 1.5em;
+}
+#logo {
+	position:relative;
+	left:0;
+	top: 20px;
+	
+}
+
+#konten {
+	margin: 3%;
+	
+}
+
+#form-login {
+	background-color: rgba(255, 255, 255, 0.33);
+	margin-bottom: 40px;
+	border-radius: 20px;
+	padding: 20px;
+}
+
+#social {
+	padding-top: 5px;
+	padding-bottom: 5px;
+}
+
+#footerwrap {
+	padding-top: 20px;
+	padding-bottom: 30px;
+	background-color: #34495e;
+	color:#000000;
+}
+
+#footerwrap i {
+	color: #4a4a4a
+	padding: 20px;
+}
+
+#footerwrap a {
+	color: #677F96;
+}
+
+#footerwrap a:hover {
+	color:  #f39c12;
+}
+
+.well {
+	background-color: #B7B8BA;
+}
+
+.carousel-control.left {
+	background-image: none;
+
+}
+
+.carousel-control.right {
+	background-image: none;
+
+}
+
+.carousel-control .glyphicon-chevron-right, .carousel-control .icon-next {
+    margin-right: -25px;
+}
+
+.carousel-control .glyphicon-chevron-left, .carousel-control .icon-prev {
+    margin-left: -25px;
+}
+
+.contactus h4{
+	color: #f39c12;
+}
+
+address {
+	color: #fff;
+	font-size: 16px;
+}
+address > strong {
+	font-size: 30px;
+	color: #f39c12;
+}
+
+.btn-warning {
+	color: #000;
+}
+
+.tabel-nilai .table-bordered {
+	border: 1px solid #000;
+}
+.tabel-nilai .table-bordered > thead  {
+	border: 1px solid #000;
+}
+.tabel-nilai .table-bordered > thead > tr {
+	border: 1px solid #000;
+}
+.tabel-nilai .table-bordered > thead > tr > td {
+	border: 1px solid #000;
+}
+.tabel-nilai .table-bordered > tbody {
+	border: 1px solid #000;
+}
+.tabel-nilai .table-bordered > tbody > tr {
+	border: 1px solid #000;
+}
+.tabel-nilai .table-bordered > tbody > tr > td {
+	border: 1px solid #000;
+}
+
+.nav-tabs {
+	margin-top: -50px;
+	border-bottom: 1px solid #F0FF00;
+	color: #fff;
+}
+
+.nav-tabs > li > a {
+	border: 0px solid transparent;
+}
+
+.nav-tabs a{
+	color: #fff;
+}
+
+.nav-tabs > li.active > a, .nav-tabs > li.active > a:hover, .nav-tabs > li.active > a:focus {
+	color: #fff;
+	border-color: #F0FF00 #F0FF00 transparent;
+}
+
+.nav-tabs > li.siswa.active > a, .nav-tabs > li.active > a:hover, .nav-tabs > li.active > a:focus {
+	background-color: #0085c1;
+}
+
+.nav-tabs > li.guru.active > a, .nav-tabs > li.active > a:hover, .nav-tabs > li.active > a:focus {
+	background-color: #e67f22;
+}
+
+.nav-tabs > li.signup.active > a, .nav-tabs > li.active > a:hover, .nav-tabs > li.active > a:focus {
+	background-color: #95a5a5;
+}
+
+.nav-tabs > li.signup_guru.active > a, .nav-tabs > li.active > a:hover, .nav-tabs > li.active > a:focus {
+	background-color: #27ae61;
+}
+
+.nav-tabs > li.siswa > a {
+	background-color: #0085c1;
+}
+
+.nav-tabs > li.guru > a {
+	background-color: #e67f22;
+}
+
+.nav-tabs > li.signup > a {
+	background-color: #95a5a5;
+}
+
+.nav-tabs > li.signup_guru > a {
+	background-color: #27ae61;
+}
+
+.nav-tabs > li.siswa > a:hover {
+	background-color: #0085c1;
+}
+
+.nav-tabs > li.guru > a:hover {
+	background-color: #e67f22;
+}
+
+.nav-tabs > li.signup > a:hover {
+	background-color: #95a5a5;
+}
+
+.nav-tabs > li.signup_guru > a:hover {
+	background-color: #27ae61;
+}
